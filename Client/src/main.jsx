@@ -20,6 +20,7 @@ import {
 
 export const Context = createContext({ isAuthorized: false });
 
+
 const AppWrapper = () => {
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [user, setUser] = useState({});
@@ -78,6 +79,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
