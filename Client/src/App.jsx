@@ -1,9 +1,10 @@
-function App() {
-  return (
-    <>
-      <div>Hello</div>
-    </>
-  );
-}
+import React from "react";
+import "./App.css";
+import {Context} from "./main"
 
-export default App; 
+
+const App = () => {
+  return <div>App</div>;
+};
+
+export default App;
